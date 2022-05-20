@@ -103,12 +103,6 @@ main section img {
     color:white ;
 }
 
-.msg {
-    background-color:#07742d;
-    line-height: 1.5em;
-    padding: 35px;
-    margin-top: 200px;
-}
 .msg h2 {
     font-family: "Libre Bodoni";
     color:#23f0c7;
@@ -129,6 +123,12 @@ main section img {
     margin-bottom: 100px;
 }
 
+.msg {
+    background-color:#07742d;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
+}
 footer {
     background-color:#07742d;
     padding: 25px 50px;
