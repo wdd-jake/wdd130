@@ -249,10 +249,12 @@ footer a:hover {
     color:white ;    
 }
 
+
 #river {
     margin-left: 550px;
     padding: 20px;
 }
+
 .river-grid{
     background-color:#23f0c7 ;
     display: grid;
