@@ -20,6 +20,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color:#2F4858 ;
+    align-items: center;
 }
 
 #logo_link {
@@ -75,6 +76,90 @@ nav a:hover {
     background-color:#20A39E ;
 }
 
+#dog_story{
+    margin: 100px;
+    align-items: center;
+    background-color:#20A39E ;
+    text-align: center;
+
+}
+h2{
+    font-family:"Lobster" ; 
+}
+
+.diff_dogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.dobermin{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+    max-height: 400px;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#2F4858 ;
+}
+
+.german{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    max-height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#2F4858 ;
+}
+
+.boxer{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    max-height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#2F4858 ;
+}
+
+.dog{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    max-height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#2F4858 ;
+}
+
+.lab{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    max-height: 400px;
+    max-width: 400px; 
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#2F4858 ;   
+}
+
+.happy{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    max-height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#2F4858 ;
+}
+
 footer {
     background-color:#2F4858;
     padding: 25px 50px;
@@ -103,3 +188,4 @@ footer a {
 footer a:hover {
     color:white ;    
 }
+
